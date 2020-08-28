@@ -37,6 +37,7 @@ $app = new Laravel\Lumen\Application(
 | your own bindings here if you like or you can make another file.
 |
 */
+$app->withEloquent();
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,

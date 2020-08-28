@@ -14,3 +14,4 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+$router->get("/goods","Goods\GoodsController@goods");//商品路由
